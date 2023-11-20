@@ -57,9 +57,12 @@ function AddProject() {
         const result = await addProjectAPI(reqBody,reqHeader)
       if(result.status===200){
         console.log(result.data);
+        handleClose()
+        alert("Project added")
+
       }else{
         console.log(result);
-        console.log(result.response.data);
+        toast.warning(result.response.data);
       }
       }
       
