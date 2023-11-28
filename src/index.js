@@ -18,4 +18,11 @@ root.render(
      </TokenAuth>
     </ContextShare>
   </React.StrictMode>
+//   <ContextShare>
+//   <TokenAuth>
+//      <BrowserRouter> 
+//       <App />
+//      </BrowserRouter>
+//   </TokenAuth>
+//  </ContextShare>
 );

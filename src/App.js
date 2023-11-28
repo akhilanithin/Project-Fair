@@ -10,6 +10,7 @@ import { tokenAuthorisationContext } from './Contexts/TokenAuth';
 
 function App() {
   const {isAuthorized,setIsAuthorized} = useContext(tokenAuthorisationContext)
+  console.log(isAuthorized);
   return (
     <div>
       <Routes>
